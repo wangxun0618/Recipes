@@ -1,0 +1,22 @@
+source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://cdn.cocoapods.org/'
+platform :ios, '13.0'
+use_frameworks! #动态库
+inhibit_all_warnings!
+
+def common_pods
+    
+    # --Data
+    pod 'Alamofire'
+    pod 'HandyJSON', :git => 'https://github.com/alibaba/HandyJSON.git', :branch => 'dev_for_swift5.0'
+    
+    # --View
+    pod 'Kingfisher/SwiftUI'
+
+end
+
+target 'Recipes' do
+    common_pods
+    
+end
+

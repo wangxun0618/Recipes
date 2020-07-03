@@ -1,0 +1,35 @@
+PODS:
+  - Alamofire (5.2.1)
+  - HandyJSON (5.0.0-beta.1)
+  - Kingfisher/Core (5.14.0)
+  - Kingfisher/SwiftUI (5.14.0):
+    - Kingfisher/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON (from `https://github.com/alibaba/HandyJSON.git`, branch `dev_for_swift5.0`)
+  - Kingfisher/SwiftUI
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  HandyJSON:
+    :branch: dev_for_swift5.0
+    :git: https://github.com/alibaba/HandyJSON.git
+
+CHECKOUT OPTIONS:
+  HandyJSON:
+    :commit: a2ba4e537711ae1fcd9183679c4db878eb171a78
+    :git: https://github.com/alibaba/HandyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  HandyJSON: 582477127ab3ab65bd2e471815f1a7b846856978
+  Kingfisher: 7b64389a43139c903ec434788344c288217c792d
+
+PODFILE CHECKSUM: 7d168f0e514fac3e95a40d8ad4e47378e2f3affa
+
+COCOAPODS: 1.9.1
